@@ -249,7 +249,7 @@ class JumpurlController implements MiddlewareInterface
      * Fetches the target url from the direct mail record
      *
      * @param int $targetIndex
-     * @return string|null
+     * @return ?string
      */
     protected function getTargetUrl($targetIndex): ?string
     {

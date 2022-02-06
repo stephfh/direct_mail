@@ -1573,7 +1573,7 @@ class Dmailer implements LoggerAwareInterface
      * Creates an address object ready to be used with the symonfy mailer
      *
      * @param string $email
-     * @param string|NULL $name
+     * @param ?string $name
      * @return Address
      */
     protected function createRecipient($email, $name = NULL)

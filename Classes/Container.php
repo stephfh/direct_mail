@@ -44,7 +44,7 @@ class Container
      * It is called as "USER_FUNC" from TS.
      *
      * @param    string $content Incoming HTML code which will be wrapped
-     * @param    array|null $conf Pointer to the conf array (TS)
+     * @param    ?array $conf Pointer to the conf array (TS)
      *
      * @return    string        content of the email with dmail boundaries
      */
